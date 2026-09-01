@@ -13,7 +13,7 @@ It does not work for the part that happens after.
 
 The award letter arrives, everybody celebrates, and the grant moves off the tracking sheet into a folder. Fourteen months later the program officer emails to ask where the interim report is. It was due two weeks ago. Nobody put it anywhere, because the spreadsheet was built for the chase, not for the three years of obligations the chase creates. The next email is the one where a renewal quietly does not happen.
 
-That is the failure this tool exists to prevent. **Post-award compliance is where the real damage happens**, and it is the half of the job that almost no software does well. Instrumentl and Foundant will sell you the pipeline half. The free tools do neither half. Meanwhile the missed interim report, the budget modification filed after the window closed, and the final report that landed late are the three things that actually cost a client money and cost you the client.
+That is the failure this tool exists to prevent. **Post-award compliance is where the real damage happens**, and it is the half of the job that almost no software does well. The paid tools in this category sell the pipeline half. The free tools do neither half. Meanwhile the missed interim report, the budget modification filed after the window closed, and the final report that landed late are the three things that actually cost a client money and cost you the client.
 
 grantdesk does three things and refuses to do a fourth.
 
@@ -243,8 +243,8 @@ The full and deliberately specific list, including the requests that will be clo
 
 - [`docs/NON-GOALS.md`](docs/NON-GOALS.md) — what this refuses to do
 - [`docs/research/data-sources.md`](docs/research/data-sources.md) — the domain model: real federal reporting obligation types, foundation patterns, the stage sequence
-- [`docs/research/prior-art.md`](docs/research/prior-art.md) — Instrumentl, Foundant, Submittable, spreadsheets, and what each gets wrong for consultants
-- [`docs/research/competitive.md`](docs/research/competitive.md) — the parity target and its price
+- [`docs/research/prior-art.md`](docs/research/prior-art.md) — the spreadsheet, adjacent open source, and the upstream contribution posture
+- [`docs/research/competitive.md`](docs/research/competitive.md) — the capability gap this fills
 - [`docs/hosted/architecture.md`](docs/hosted/architecture.md) — how `desk.opengrants.io` is built
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — how to help
 
