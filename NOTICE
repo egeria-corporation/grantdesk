@@ -1,0 +1,134 @@
+grantdesk
+Copyright 2026 Egeria Corporation
+
+This product includes software developed by Egeria Corporation
+(https://github.com/egeria-corporation).
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full license text.
+
+Sponsored by OpenGrants (https://opengrants.io).
+
+================================================================================
+THIRD-PARTY SOFTWARE
+================================================================================
+
+This product depends on, and redistributes in built artifacts, software from
+the following projects. Each is used under its own license, reproduced in full
+in the dependency's own distribution and recorded in the generated
+THIRD-PARTY-LICENSES.txt at release time.
+
+Hono
+  Copyright (c) 2021-present Yusuke Wada and Hono contributors
+  License: MIT
+  https://github.com/honojs/hono
+  Used as the HTTP framework for the web application, the JSON API, and the
+  server-rendered UI, on both the Cloudflare Workers and Node.js targets.
+
+Drizzle ORM
+  Copyright (c) Drizzle Team
+  License: Apache License 2.0
+  https://github.com/drizzle-team/drizzle-orm
+  Used as the schema definition and query layer. Its SQLite dialect is the
+  reason one schema serves both Cloudflare D1 and a local SQLite file.
+
+Zod
+  Copyright (c) Colin McDonnell
+  License: MIT
+  https://github.com/colinhacks/zod
+  Used for request, configuration, and webhook payload validation.
+
+Model Context Protocol TypeScript SDK
+  Copyright (c) Anthropic, PBC
+  License: MIT
+  https://github.com/modelcontextprotocol/typescript-sdk
+  Used to implement the MCP server surface.
+
+Biome
+  Copyright (c) Biome Developers and Contributors
+  License: MIT
+  https://github.com/biomejs/biome
+  Used for linting and formatting. Development dependency.
+
+Vitest
+  Copyright (c) Anthony Fu, Matias Capeletto and Vitest contributors
+  License: MIT
+  https://github.com/vitest-dev/vitest
+  Used for the test suite. Development dependency.
+
+Wrangler and workerd
+  Copyright (c) Cloudflare, Inc.
+  License: Apache License 2.0 / MIT (see the respective packages)
+  https://github.com/cloudflare/workers-sdk
+  Used to build, run, and deploy the Cloudflare Workers target, and to run the
+  local emulated D1 database in development. Development and deployment
+  dependency.
+
+better-sqlite3
+  Copyright (c) Joshua Wise
+  License: MIT
+  https://github.com/WiseLibs/better-sqlite3
+  Used as the SQLite driver for the Node.js and Docker Compose target.
+
+The complete, version-pinned dependency license inventory is generated during
+the release process and published as THIRD-PARTY-LICENSES.txt alongside each
+release artifact. That file, not this one, is authoritative for exact versions.
+
+================================================================================
+PUBLIC DOMAIN GOVERNMENT SOURCES
+================================================================================
+
+The built-in compliance obligation templates encode reporting requirements
+described in works of the United States Government, which are not subject to
+copyright protection in the United States (17 U.S.C. Section 105):
+
+  Title 2 of the Code of Federal Regulations, Part 200 (Uniform Administrative
+  Requirements, Cost Principles, and Audit Requirements for Federal Awards),
+  including the 2024 revision effective for fiscal years beginning on or after
+  2024-10-01.
+  https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200
+
+  Standard Form 425, Federal Financial Report, and its instructions, and the
+  related Standard Forms 270, 271, 428, and 429, published by the U.S. General
+  Services Administration.
+  https://www.grants.gov/forms/post-award-reporting-forms
+
+  Agency reporting guidance including the National Institutes of Health Grants
+  Policy Statement and the National Science Foundation Proposal and Award
+  Policies and Procedures Guide.
+
+Each template records the citation it derives from and the date that citation
+was verified. Egeria Corporation is not affiliated with, and grantdesk is not
+endorsed by, any United States Government agency. Federal requirements change;
+the terms of a specific Notice of Award govern over any general template.
+
+================================================================================
+RELATED WORK CREDITED BY THIS PROGRAM
+================================================================================
+
+grantdesk does not vendor code or data from the projects below, but it is part
+of a program that builds directly on them, and it links to sibling tools that
+do. They are named here because this program is only credible if it is a good
+citizen of the nonprofit open data community.
+
+  Nonprofit Open Data Collective
+  https://github.com/Nonprofit-Open-Data-Collective
+  In particular the IRS E-file Master Concordance File, which is what makes
+  Form 990 XML tractable across schema versions.
+
+  GivingTuesday 990 data tool repository
+  https://990data.givingtuesday.org/tool-repository/
+  Including form-990-xml-mapper and form-990-xml-parser.
+
+================================================================================
+DATA OWNERSHIP
+================================================================================
+
+grantdesk stores records that you create about your clients and their funders.
+Egeria Corporation claims no ownership of, and in a self-hosted deployment has
+no access to, that data. The hosted companion at desk.opengrants.io is operated
+under the terms published on that site.
+
+Data retrieved through the optional OpenGrants API remains subject to the
+OpenGrants terms of service. Redistribution of that data outside your own
+deployment is not granted by this license.
